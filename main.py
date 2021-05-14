@@ -22,6 +22,7 @@ search_params = {
     'q': '',
     'num': 300,
     'fileType': 'jpg',
+    'imgDominantColor': 'blue'
 }
 
 for index in list(Searchindex):
