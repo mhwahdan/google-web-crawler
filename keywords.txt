@@ -1,3 +1,1 @@
-printable letter E
-printable letter F
-printable letter G
+Rectangle
