@@ -1,8 +1,5 @@
 from google_images_search import GoogleImagesSearch
 
-# using your custom progressbar function
-def my_progressbar(url, progress):
-    print(url + ' ' + progress + '#')
 
 # you can provide API key and CX using arguments,
 # or you can set environment variables: GCS_DEVELOPER_KEY, GCS_CX
@@ -28,7 +25,7 @@ search_params = {
 for index in list(Searchindex):
     search_params['q'] = index
     try:
-        gis.search(search_params=search_params, path_to_dir=index,progressbar_fn=my_progressbar)
+        gis.search(search_params=search_params, path_to_dir=index)
         Searchindex.pop(index)
     except:
         continue
