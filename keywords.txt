@@ -1,1 +1,3 @@
-Rectangle
+printable letter A
+printable letter B
+printable letter C
