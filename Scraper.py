@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
-import time
+from time import sleep
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -42,10 +42,10 @@ for x in searchindex:
             try:
                 button = driver.find_element_by_class_name('mye4qd')
                 button.send_keys(Keys.RETURN)
-                time.sleep(2)
+                sleep(2)
             except:
                 pass
-            time.sleep(0.5)
+            sleep(0.5)
             i+=1
         #parsing
         soup = BeautifulSoup(driver.page_source, 'html.parser')
