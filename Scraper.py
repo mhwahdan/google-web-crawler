@@ -18,9 +18,7 @@ keywords = open('keywords.txt', 'r')
 for x in keywords:
     searchindex.append(x.rstrip('\n'))
 
-
 driver = webdriver.Chrome(PATH)
-#switch to english
 driver.get("https://www.google.com")
 
 
@@ -72,4 +70,4 @@ for x in searchindex:
 
 keywords.close()
 driver.close()
-print("Web scraping succfull")
+print("Done scrapping XD")
