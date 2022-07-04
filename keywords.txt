@@ -9,3 +9,15 @@ printable letter H
 printable letter I
 printable letter J
 printable letter K
+
+printable letter A
+printable letter B
+printable letter C
+printable letter D
+printable letter E
+printable letter F
+printable letter G
+printable letter H
+printable letter I
+printable letter J
+printable letter K
