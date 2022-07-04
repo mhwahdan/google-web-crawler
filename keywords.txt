@@ -9,6 +9,9 @@ printable letter H
 printable letter I
 printable letter J
 printable letter K
+printable letter ge
+printable letter ba
+printable letter gar
 
 printable letter A
 printable letter B
